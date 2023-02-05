@@ -1,0 +1,37 @@
+h1 {
+    font-size: 100;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 20px 500px 20px;
+    margin: 1em;
+    font-weight: bold;
+    text-decoration:underline dotted ;
+    color: rgb(255, 0, 0) ;
+    background-color: white;
+}
+
+h2 {
+    font-size: ;
+    font-family: ;
+    padding: ;
+    margin: ;
+    font-weight: ;
+    color:blue ;
+    background-color: ;
+}
+
+p {
+    font-family: ;
+    font-size: ;
+    padding: ;
+    margin: ;
+    color: red;
+    background-color: ;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url();
+    background-color: ;
+    height: ;
+    width: ;
+}
