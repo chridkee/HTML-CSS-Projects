@@ -1,0 +1,170 @@
+#whole-page {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 1000px;
+    position: relative;
+}
+
+#margin-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#margin-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 10% 2% 5% 10% 320px 80px 2fr 1fr;
+}
+
+#header-row {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+#overflow {
+    border-bottom: solid gray;
+}
+
+#link-row {
+    border-bottom: solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#quote-row {
+    display: flex;
+    justify-content: center;
+}
+
+#social-media-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 6px;
+
+}
+
+#footer-row {
+    display: flex;
+}
+
+#cat {
+    height: 180px;
+    padding: 10px;
+
+}
+
+.center-cell{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-style: italic;
+}
+
+#picture-row{
+    display: flex;
+    justify-content: center;
+}
+
+#comp-friends {
+    height: 300px;
+    padding: 5px;
+    border-style: solid;
+}
+
+.social-logo {
+    height: 50px;
+}
+
+.link-row-cell {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: gray;
+    border: solid rgb(58, 57, 57);
+    padding: 3px;
+}
+
+.right-element {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red-background {
+    display: block;
+    background-color: red;
+}
+
+.white-background {
+    background-color: rgb(238, 227, 227);
+}
+
+.red-text{
+    color: red;
+}
+
+#form-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#fr-c1{
+    align-content: flex-end;
+    padding: 5px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 8;
+    margin-bottom: 8;
+    padding: 5;
+    border: solid black;
+    border-width: 2;
+    background-color: rgb(222, 202, 202);
+}
+
+.animated {
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes slidein {
+    from {
+        transform-origin: 0;
+    }
+    to {
+      transform: translateX(650%);
+    }
+
+}
+
+
+footer{
+    overflow: hidden;
+    border-top: solid;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+      background: white;
+    }
+  }

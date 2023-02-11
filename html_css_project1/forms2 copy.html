@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Forms</title>
+</head>
+<body>
+    <h1>Please Fill Out The Form</h1>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add user</legend>
+
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="first_name">
+            </div>
+
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="last_name">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email">
+            </div>
+
+            <h3>Are you a Student, Teacher, or Guest?</h3>
+
+            <select name="Status" id="status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+            <p></p>
+            <fieldset>
+                <legend>Pick your favorite programming language!:</legend>
+
+                <div>
+                  <input type="radio" id="Ruby" name="lang" value="Ruby"
+                         checked>
+                  <label for="Ruby">Ruby</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="Javascript" name="lang" value="Javascript">
+                  <label for="Javascript">Javascript</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="HTML" name="lang" value="HTML">
+                  <label for="HTML">HTML</label>
+                </div>
+
+                <p></p>
+
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <p>Tell us why! Submit your reasoning below :)</p>
+                <textarea name="Comments" id="Comments" cols="30" rows="10">
+                </textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Agree, Sign up, and Submit:</legend>
+
+                <div>
+                  <input type="checkbox" id="agree" name="submissionbox" >
+                  <label for="agree">I agree to the terms and conditions.</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="signup" name="submissionbox">
+                  <label for="signup">I'd like to sign up for the newsletter</label>
+                </div>
+
+                <div>
+                    <input type="submit" />
+                </div>
+            </fieldset>
+
+        </fieldset>
+    </form>
+</body>
+</html>
