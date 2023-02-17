@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.margin {
+    background-color: green;
+}
+
+.page-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    position: relative;
+    top: -20px;
+}
+
+#visible {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 1500px;
+}
+
+
+#content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr;
+}
+
+#other-pages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: dotted;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: grey;
+    color: white;
+    align-items:center;
+}
+
+p {
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 8;
+    margin-bottom: 12;
+    padding: 5;
+    border: solid black;
+    border-width: 2;
+    background-color: rgb(222, 202, 202);
+    top: 20px;
+}

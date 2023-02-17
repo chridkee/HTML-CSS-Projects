@@ -1,0 +1,58 @@
+#picture-grid{
+    height: 1500px;
+    width: 1500px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 5% 90% 5%;
+}
+.cell{
+    display: flex;
+    border: solid;
+    padding 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 400px;
+    border-style: ridge;
+}
+
+header{
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+
+}
+
+footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    margin-bottom: 35px;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+      background: rgb(107, 81, 81);
+    }
+  }

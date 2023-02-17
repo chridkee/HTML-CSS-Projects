@@ -1,0 +1,39 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    color: navy;
+}
+body{
+    display: grid;
+    grid-template-rows: 100px 900px;
+}
+
+fieldset{
+    background-color: beige;
+    width: 500px;
+}
+
+legend{
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    color: brown;
+}
+
+h4{
+    color: brown;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background-color: aqua;
+    margin-left: 18;
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+
+
+}
